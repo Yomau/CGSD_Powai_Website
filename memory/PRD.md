@@ -1,0 +1,48 @@
+# CGKG Royapuram — Website Clone (PRD)
+
+## Original Problem Statement
+Build a pixel-perfect clone of https://www.cgkgroyapuram.com/ (Coast Guard Kindergarten, Royapuram).
+Match design, layout, colors (white bg, navy text, indigo accents, orange highlights), fonts, animations,
+structure and responsive behavior. Use the provided uploaded images.
+
+## Tech Stack
+- Frontend: React + React Router DOM + Tailwind CSS + Shadcn UI. Icons via lucide-react.
+- Backend: FastAPI + MongoDB (NOT yet implemented).
+- Data: currently 100% mock (`/app/frontend/src/mock.js`).
+
+## Architecture
+```
+/app/frontend/src/
+├── mock.js            # all static data + image URLs (LOGO = new transparent crest PNG)
+├── App.js             # routing + <Preloader/> + <RouteLoader/> (page-transition spinner demo)
+├── App.css            # brand vars + logo Y-axis flip animations (.logo-flip-once/.logo-flip-loop)
+├── index.css
+├── components/
+│   ├── Header.jsx, Footer.jsx, HeroSlider.jsx, WhatsAppButton.jsx, SocialSidebar.jsx,
+│   ├── QuickLinks.jsx, HomeSections.jsx, NewsGallery.jsx, PageHero.jsx
+│   ├── Preloader.jsx     # full-screen splash, 1.5s ease-out Y-flip on first load
+│   └── LogoSpinner.jsx   # reusable loading spinner (continuous Y-flip logo)
+└── pages/ Home, About, TeachingStaff, MissionVision, Administration, Admission,
+           Facilities, Gallery, Events, Contact
+```
+
+## Implemented (2026-06)
+- Full multi-page frontend clone (mock-data driven), matching original theme.
+- **Logo animations (2026-06):**
+  - New transparent-background crest logo used everywhere (`LOGO` in mock.js).
+  - `Preloader`: full-screen splash on first load; logo does a smooth ease-out Y-axis
+    flip (~1.5s, 720deg) then fades out. Verified via screenshot (caught mid-flip).
+  - `LogoSpinner`: reusable continuous Y-axis spin loader (size/label props, data-testid="logo-spinner").
+  - `RouteLoader` in App.js: shows LogoSpinner overlay ~650ms on each route change (demo of reusable spinner).
+  - CSS uses `perspective` on parent (true 3D flip, no flat squish); respects `prefers-reduced-motion` (static logo).
+  - Pure CSS animations, no extra libraries.
+
+## Backlog (not started)
+- P1: `contracts.md` API contracts; replace mock.js with backend.
+- P2: FastAPI models + CRUD for Events / News / Gallery.
+- P3: Frontend ↔ backend integration; remove mock.js.
+- P3: Wire LogoSpinner into real async states (admission form submit, gallery fetch) once backend exists.
+
+## Notes
+- Preview URL comes from REACT_APP_BACKEND_URL only.
+- No backend / auth / integrations yet. No credentials needed.

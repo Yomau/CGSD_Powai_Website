@@ -1,0 +1,241 @@
+.App {
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+/* Headings font */
+h1, h2, h3, h4, h5, h6, .font-display {
+  font-family: 'Poppins', 'Inter', sans-serif;
+}
+
+body {
+  font-family: 'Inter', 'Poppins', sans-serif;
+  color: #1a1f4d;
+}
+
+/* Brand colors */
+:root {
+  --brand-navy: #1b1f5b;
+  --brand-indigo: #4a3aff;
+  --brand-purple: #6d5fff;
+  --brand-orange: #ff8a00;
+  --brand-yellow: #f5b400;
+  --brand-sky: #e9f3ff;
+}
+
+.text-brand-navy { color: var(--brand-navy); }
+.text-brand-indigo { color: var(--brand-indigo); }
+.bg-brand-indigo { background-color: var(--brand-indigo); }
+.bg-brand-navy { background-color: var(--brand-navy); }
+.text-brand-orange { color: var(--brand-orange); }
+
+/* Subtle hover for nav links */
+.nav-link {
+  position: relative;
+  transition: color 200ms ease;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  height: 3px;
+  width: 0;
+  background: var(--brand-indigo);
+  border-radius: 4px;
+  transform: translateX(-50%);
+  transition: width 250ms ease;
+}
+.nav-link:hover::after,
+.nav-link.active::after { width: 24px; }
+
+.btn-primary {
+  background: var(--brand-indigo);
+  color: #fff;
+  border-radius: 999px;
+  padding: 12px 28px;
+  font-weight: 600;
+  transition: transform 200ms ease, background-color 200ms ease, box-shadow 200ms ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn-primary:hover {
+  background: #3a2bff;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(74, 58, 255, 0.25);
+}
+
+.btn-outline {
+  border: 1.5px solid var(--brand-indigo);
+  color: var(--brand-indigo);
+  border-radius: 999px;
+  padding: 10px 22px;
+  font-weight: 600;
+  transition: background 200ms ease, color 200ms ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn-outline:hover { background: var(--brand-indigo); color: #fff; }
+
+/* Section eyebrow */
+.eyebrow {
+  display: inline-block;
+  background: #fff1e0;
+  color: var(--brand-orange);
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+/* Quick link card */
+.quick-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(27, 31, 91, 0.08);
+  transition: transform 250ms ease, box-shadow 250ms ease;
+}
+.quick-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(27, 31, 91, 0.14);
+}
+.quick-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: var(--brand-indigo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin: 0 auto 14px;
+  transition: transform 250ms ease;
+}
+.quick-card:hover .quick-icon { transform: scale(1.08) rotate(-4deg); }
+
+/* Gallery image */
+.gallery-img {
+  overflow: hidden;
+  border-radius: 14px;
+  position: relative;
+}
+.gallery-img img {
+  transition: transform 500ms ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery-img:hover img { transform: scale(1.08); }
+
+/* Slider fade */
+.slide-fade-enter { opacity: 0; }
+.slide-fade-enter-active { opacity: 1; transition: opacity 600ms ease; }
+
+/* WhatsApp pulse */
+@keyframes pulseRing {
+  0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.55); }
+  70% { box-shadow: 0 0 0 18px rgba(37, 211, 102, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
+.whatsapp-fab { animation: pulseRing 2s infinite; }
+
+/* News card */
+.news-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(27, 31, 91, 0.07);
+  transition: transform 250ms ease, box-shadow 250ms ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.news-card:hover { transform: translateY(-4px); box-shadow: 0 16px 32px rgba(27, 31, 91, 0.12); }
+
+/* Decorative dots */
+.decor-dot {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.scrolling-marquee {
+  display: flex;
+  gap: 48px;
+  animation: marquee 30s linear infinite;
+  white-space: nowrap;
+}
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ===== Logo Y-axis flip animations ===== */
+/* Parent provides perspective so the flip reads as a real 3D coin spin, not a flat squish */
+.logo-perspective {
+  perspective: 900px;
+  display: inline-block;
+}
+.logo-3d {
+  transform-style: preserve-3d;
+  backface-visibility: visible;
+  will-change: transform;
+}
+
+/* One-shot page-load spin: fast start, natural ease-out slowdown */
+@keyframes logoFlipOnce {
+  from { transform: rotateY(0deg); }
+  to   { transform: rotateY(720deg); }
+}
+.logo-flip-once {
+  animation: logoFlipOnce 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Continuous loading spin */
+@keyframes logoFlipLoop {
+  from { transform: rotateY(0deg); }
+  to   { transform: rotateY(360deg); }
+}
+.logo-flip-loop {
+  animation: logoFlipLoop 1.2s linear infinite;
+}
+
+/* Full-screen preloader splash */
+.preloader-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 500ms ease, visibility 500ms ease;
+}
+.preloader-overlay.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Lightweight overlay for page transitions / data loading */
+.loading-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Accessibility: honour reduced-motion — show the logo statically */
+@media (prefers-reduced-motion: reduce) {
+  .logo-flip-once,
+  .logo-flip-loop {
+    animation: none !important;
+    transform: none !important;
+  }
+}
