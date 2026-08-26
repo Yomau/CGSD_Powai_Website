@@ -79,18 +79,21 @@ export const VMV = [
 ];
 
 export const GALLERY = [
-  USER_IMAGES.republicGroup,
-  USER_IMAGES.flagHoist1,
-  USER_IMAGES.republicGroup2,
-  USER_IMAGES.flagHoist2,
-  "https://www.cgkgroyapuram.com/public/img/gallery/g1.webp",
-  "https://www.cgkgroyapuram.com/public/img/gallery/g2.webp",
-  "https://www.cgkgroyapuram.com/public/img/gallery/g3.webp",
-  "https://www.cgkgroyapuram.com/public/img/gallery/g4.webp",
-  "https://www.cgkgroyapuram.com/public/img/gallery/g5.webp",
-  "https://www.cgkgroyapuram.com/public/img/gallery/g6.webp",
-  "https://www.cgkgroyapuram.com/public/img/gallery/g7.webp",
-  "https://www.cgkgroyapuram.com/public/img/gallery/g8.webp",
+  "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/eo439lbp_WhatsApp%20Image%202026-08-24%20at%2013.00.18.jpeg",
+  "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/596f93y1_WhatsApp%20Image%202026-08-24%20at%2012.53.47.jpeg",
+  "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/qdjkjv2z_WhatsApp%20Image%202026-08-24%20at%2012.47.53.jpeg",
+  "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/wn7n7amp_WhatsApp%20Image%202026-08-24%20at%2012.56.24.jpeg",
+  "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/qlab1o4p_WhatsApp%20Image%202026-08-24%20at%2012.56.24%20%281%29.jpeg",
+  "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/ulb593l5_WhatsApp%20Image%202026-08-24%20at%2012.41.34.jpeg",
+  "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/huk5wuhr_WhatsApp%20Image%202026-08-24%20at%2012.42.10.jpeg",
+  "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/8ls4qrbn_WhatsApp%20Image%202026-08-24%20at%2012.43.46.jpeg",
+  "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/q9kkq3ch_WhatsApp%20Image%202026-08-24%20at%2012.45.47.jpeg",
+  "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/8u6m5bs8_WhatsApp%20Image%202026-08-24%20at%2012.58.09.jpeg",
+  "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/s0t39csj_WhatsApp%20Image%202026-08-24%20at%2012.38.47.jpeg",
+  "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/jpx9gzzx_WhatsApp%20Image%202026-08-24%20at%2012.36.28.jpeg",
+  "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/mq2x71j0_WhatsApp%20Image%202026-08-24%20at%2012.53.48.jpeg",
+  "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/vabugc13_WhatsApp%20Image%202026-08-24%20at%2012.51.02.jpeg",
+  "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/wbeexz4d_WhatsApp%20Image%202026-08-24%20at%2012.59.43.jpeg",
 ];
 
 export const NEWS_EVENTS = [

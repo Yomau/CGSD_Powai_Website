@@ -36,9 +36,10 @@ structure and responsive behavior. Use the provided uploaded images.
   and added schema.org Preschool JSON-LD in public/index.html. mock.js CONTACT gained `mapEmbed` + `directions`.
   - FLAGGED (kept as-is per client, 2026-08): phone `+91 78456 81810` & whatsapp `7845681810`,
     and email `info@cgkgroyapuram.com`.
-- **Hero banner photos (2026-08):** replaced slider with 5 real CGKG Powai photos (welcome/Coast Guard
-  visit, Independence Day, Graduation Day 2026, Dussehra, morning assembly) with new captions in `SLIDER_IMAGES`.
-  More photos for gallery/other sections pending from client.
+- **Real Powai photos (2026-08):** hero banner (5), News & Events (5: Annual Day 2026, Fancy Dress,
+  Little Master Chefs, Red Day, Janmashtami), and Gallery (15 real photos incl. flag hoisting, graduation,
+  sports, Teachers' Day, festivals). All old cgkgroyapuram.com/webp gallery URLs removed.
+  Note: About/Home AboutSection still use old USER_IMAGES (Republic Day) — not yet replaced.
 - **Logo animations (2026-06):**
   - New transparent-background crest logo used everywhere (`LOGO` in mock.js).
   - `Preloader`: full-screen splash on first load; logo does a smooth ease-out Y-axis
