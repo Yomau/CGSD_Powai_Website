@@ -34,8 +34,11 @@ structure and responsive behavior. Use the provided uploaded images.
   Maharashtra 400076. Updated: Header/Footer/Preloader labels, copyright, Home/About/Admission copy,
   news testimonials, Contact map embed + new "Get Directions" link (share.google), SEO title/meta/OG,
   and added schema.org Preschool JSON-LD in public/index.html. mock.js CONTACT gained `mapEmbed` + `directions`.
-  - FLAGGED (still old / need client input): phone `+91 78456 81810` & whatsapp `7845681810` (old Chennai
-    number — Google profile has none published), and email `info@cgkgroyapuram.com`.
+  - FLAGGED (kept as-is per client, 2026-08): phone `+91 78456 81810` & whatsapp `7845681810`,
+    and email `info@cgkgroyapuram.com`.
+- **Hero banner photos (2026-08):** replaced slider with 5 real CGKG Powai photos (welcome/Coast Guard
+  visit, Independence Day, Graduation Day 2026, Dussehra, morning assembly) with new captions in `SLIDER_IMAGES`.
+  More photos for gallery/other sections pending from client.
 - **Logo animations (2026-06):**
   - New transparent-background crest logo used everywhere (`LOGO` in mock.js).
   - `Preloader`: full-screen splash on first load; logo does a smooth ease-out Y-axis

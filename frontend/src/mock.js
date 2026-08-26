@@ -9,27 +9,32 @@ export const USER_IMAGES = {
   flagHoist2: "https://customer-assets.emergentagent.com/job_790da063-5f8c-4d40-91d7-bf00c34d8a01/artifacts/qfqy009m_WhatsApp%20Image%202026-05-20%20at%2010.20.33.jpeg",
 };
 
-// Hero slider images use the user uploaded photos primarily, plus the originals public webp from the source site
+// Hero slider images — real photos from CGKG Powai, Mumbai
 export const SLIDER_IMAGES = [
   {
-    src: USER_IMAGES.republicGroup,
-    caption: "Celebrating Republic Day with Pride",
-    sub: "Honoring our nation's rich heritage at CGKG Powai",
+    src: "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/s0t39csj_WhatsApp%20Image%202026-08-24%20at%2012.38.47.jpeg",
+    caption: "A Warm Welcome to Our Guests",
+    sub: "Little hands greeting the Indian Coast Guard with love at CGKG Powai",
   },
   {
-    src: USER_IMAGES.flagHoist1,
-    caption: "Education for Excellence",
-    sub: "Nurturing tomorrow's leaders today",
+    src: "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/wbeexz4d_WhatsApp%20Image%202026-08-24%20at%2012.59.43.jpeg",
+    caption: "Celebrating the Spirit of Freedom",
+    sub: "Waving the tricolour with pride and patriotism in Powai",
   },
   {
-    src: USER_IMAGES.republicGroup2,
-    caption: "A Salute to the Tricolour",
-    sub: "Dignified ceremonies that inspire patriotism",
+    src: "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/mq2x71j0_WhatsApp%20Image%202026-08-24%20at%2012.53.48.jpeg",
+    caption: "Graduation Day 2026",
+    sub: "Proud little graduates ready for their next bright chapter",
   },
   {
-    src: USER_IMAGES.flagHoist2,
-    caption: "Joyful Beginnings, Bright Futures",
-    sub: "Where little hands wave the flag of freedom",
+    src: "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/vabugc13_WhatsApp%20Image%202026-08-24%20at%2012.51.02.jpeg",
+    caption: "Celebrating Festivals Together",
+    sub: "Joyful Dussehra celebrations that nurture culture and values",
+  },
+  {
+    src: "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/jpx9gzzx_WhatsApp%20Image%202026-08-24%20at%2012.36.28.jpeg",
+    caption: "Beginning Each Day with Gratitude",
+    sub: "Morning assembly at Coast Guard Kindergarten, Powai",
   },
 ];
 
