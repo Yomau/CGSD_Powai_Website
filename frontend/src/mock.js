@@ -79,6 +79,10 @@ export const VMV = [
 ];
 
 export const GALLERY = [
+  "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/35ravj04_WhatsApp%20Image%202026-08-24%20at%2012.41.27.jpeg",
+  "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/6hk4bzqv_WhatsApp%20Image%202026-08-24%20at%2012.41.27%20%281%29.jpeg",
+  "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/a1dqniko_WhatsApp%20Image%202026-08-24%20at%2012.47.14.jpeg",
+  "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/ret72gwu_WhatsApp%20Image%202026-08-24%20at%2012.49.25.jpeg",
   "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/eo439lbp_WhatsApp%20Image%202026-08-24%20at%2013.00.18.jpeg",
   "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/596f93y1_WhatsApp%20Image%202026-08-24%20at%2012.53.47.jpeg",
   "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/qdjkjv2z_WhatsApp%20Image%202026-08-24%20at%2012.47.53.jpeg",
