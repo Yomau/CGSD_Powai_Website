@@ -13,7 +13,7 @@ export default function Footer() {
             <div>
               <div className="font-display font-extrabold text-white text-[15px] leading-tight">COAST GUARD</div>
               <div className="font-display font-extrabold text-white text-[15px] leading-tight">KINDERGARTEN</div>
-              <div className="font-display font-semibold text-[10px] tracking-[0.3em] text-slate-300 mt-1">ROYAPURAM</div>
+              <div className="font-display font-semibold text-[10px] tracking-[0.3em] text-slate-300 mt-1">POWAI</div>
             </div>
           </div>
           <p className="text-[14px] text-slate-300 leading-relaxed">
@@ -90,7 +90,7 @@ export default function Footer() {
       </div>
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col md:flex-row items-center justify-between gap-2 text-[13px] text-slate-400">
-          <p>© {new Date().getFullYear()} Coast Guard Kindergarten, Royapuram. All Rights Reserved.</p>
+          <p>© {new Date().getFullYear()} Coast Guard Kindergarten, Powai. All Rights Reserved.</p>
           <p>Education for Excellence</p>
         </div>
       </div>

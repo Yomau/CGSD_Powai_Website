@@ -18,7 +18,7 @@ export default function About() {
             <span className="eyebrow">Who We Are</span>
             <h2 className="font-display font-extrabold text-3xl md:text-4xl text-[var(--brand-navy)] mt-3">An Institution Built on Excellence</h2>
             <p className="mt-5 text-slate-600 leading-relaxed">
-              Coast Guard Kindergarten, Royapuram is an early-learning institution committed to providing a safe, joyful and stimulating
+              Coast Guard Kindergarten, Powai is an early-learning institution committed to providing a safe, joyful and stimulating
               environment for children to flourish. We believe in learning through play, structured activities and individual attention
               from our experienced faculty.
             </p>

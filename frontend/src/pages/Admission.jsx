@@ -31,7 +31,7 @@ export default function Admission() {
 
   return (
     <main>
-      <PageHero title="Admissions Open" subtitle="Begin your child's joyful learning journey at CGKG Royapuram, Chennai." breadcrumb="Admission" />
+      <PageHero title="Admissions Open" subtitle="Begin your child's joyful learning journey at CGKG Powai, Mumbai." breadcrumb="Admission" />
 
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">

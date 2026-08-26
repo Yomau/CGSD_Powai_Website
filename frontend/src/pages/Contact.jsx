@@ -38,11 +38,20 @@ export default function Contact() {
             <div className="mt-8 rounded-2xl overflow-hidden border border-slate-100">
               <iframe
                 title="map"
-                src="https://www.google.com/maps?q=Royapuram%20Chennai&output=embed"
+                src={CONTACT.mapEmbed}
                 className="w-full h-64"
                 loading="lazy"
               />
             </div>
+            <a
+              href={CONTACT.directions}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-outline mt-4"
+              data-testid="get-directions-link"
+            >
+              <MapPin size={16} /> Get Directions
+            </a>
           </div>
 
           <form onSubmit={onSubmit} className="bg-white rounded-2xl shadow-xl border border-slate-100 p-7 h-fit">

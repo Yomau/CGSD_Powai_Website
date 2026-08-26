@@ -1,4 +1,4 @@
-// Mock data for Coast Guard Kindergarten Royapuram clone
+// Mock data for Coast Guard Kindergarten Powai clone
 
 export const LOGO = "https://customer-assets-lqy194kg.emergentagent.net/job_temple-site-demo/artifacts/pba3sd4a_35327806966.png";
 
@@ -14,7 +14,7 @@ export const SLIDER_IMAGES = [
   {
     src: USER_IMAGES.republicGroup,
     caption: "Celebrating Republic Day with Pride",
-    sub: "Honoring our nation's rich heritage at CGKG Royapuram",
+    sub: "Honoring our nation's rich heritage at CGKG Powai",
   },
   {
     src: USER_IMAGES.flagHoist1,
@@ -136,20 +136,20 @@ export const NEWS_EVENTS = [
     date: "14 Nov 2024",
     image: "https://www.cgkgroyapuram.com/public/img/news/ev14.jpg",
     title: "Children's Day",
-    text: "CGKG Royapuram celebrated Children's Day with joy and enthusiasm, featuring fun activities, games, and performances that highlighted the spirit of childhood and brought smiles to every little face.",
+    text: "CGKG Powai celebrated Children's Day with joy and enthusiasm, featuring fun activities, games, and performances that highlighted the spirit of childhood and brought smiles to every little face.",
   },
   {
     id: "ev8",
     date: "31 Oct 2024",
     image: "https://www.cgkgroyapuram.com/public/img/news/ev12.jpg",
     title: "Diwali Celebration",
-    text: "The Diwali celebration at CGKG Royapuram is a joyous occasion filled with traditional rituals, cultural performances, and festive activities, bringing the community together to celebrate the Festival of Lights.",
+    text: "The Diwali celebration at CGKG Powai is a joyous occasion filled with traditional rituals, cultural performances, and festive activities, bringing the community together to celebrate the Festival of Lights.",
   },
 ];
 
 export const PRINCIPAL = {
   name: "Mrs. Amita Kokate",
-  role: "Principal, CGKG Chennai",
+  role: "Principal, CGKG Powai",
   image: "https://www.cgkgroyapuram.com/public/img/images/principal.webp",
   message:
     "We at CGKG create a warm and comfortable environment for the children, through learning by enjoying the activities. Our well experienced teachers pay individual attention to the child and strive to bring their best ability in the budding stage itself. The school classrooms are fitted with air conditioners and equipped with smart classroom facilities making the children to enjoy the classes and easy way to grasp.",
@@ -172,14 +172,17 @@ export const FACILITIES = [
   { title: "Play Area", icon: "Gamepad2", desc: "Safe outdoor play area with swings, slides and soft flooring." },
   { title: "Activity Room", icon: "Palette", desc: "Dedicated activity rooms for art, craft, music and dance." },
   { title: "Health Care", icon: "HeartPulse", desc: "Regular health check-ups and on-call medical assistance for all students." },
-  { title: "Transport", icon: "Bus", desc: "Safe and reliable transportation across Chennai with attendants on every bus." },
+  { title: "Transport", icon: "Bus", desc: "Safe and reliable transportation across Mumbai with attendants on every bus." },
   { title: "Cafeteria", icon: "Utensils", desc: "Nutritious, freshly prepared snacks for our little learners." },
   { title: "CCTV Surveillance", icon: "ShieldCheck", desc: "24x7 surveillance for a safe and secure campus environment." },
 ];
 
 export const CONTACT = {
-  address: "Coast Guard Kindergarten, Royapuram, Chennai - 600013, Tamil Nadu, India",
+  address: "Coast Guard Kindergarten, 16 B, Jogeshwari - Vikhroli Link Rd, near IDBI Bank, MHADA Colony 20, Powai, Mumbai, Maharashtra 400076",
   phone: "+91 78456 81810",
   email: "info@cgkgroyapuram.com",
   whatsapp: "7845681810",
+  mapEmbed:
+    "https://www.google.com/maps?q=Coast+Guard+CG+School,+16+B,+Jogeshwari+-+Vikhroli+Link+Rd,+Powai,+Mumbai,+Maharashtra+400076&output=embed",
+  directions: "https://share.google/poRG7higYWgFyHW7s",
 };

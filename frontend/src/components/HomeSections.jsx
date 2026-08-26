@@ -22,10 +22,10 @@ export function AboutSection() {
         <div>
           <span className="eyebrow">Welcome to</span>
           <h2 className="font-display font-extrabold text-3xl md:text-4xl lg:text-5xl text-[var(--brand-navy)] mt-3 leading-tight">
-            Coast Guard <span className="text-[var(--brand-indigo)]">Kindergarten</span> Chennai
+            Coast Guard <span className="text-[var(--brand-indigo)]">Kindergarten</span> Mumbai
           </h2>
           <p className="mt-5 text-slate-600 leading-relaxed text-[15px]">
-            The Coast Guard Kindergarten in Royapuram is an educational institution dedicated to providing
+            The Coast Guard Kindergarten in Powai is an educational institution dedicated to providing
             a joyful, stimulating and safe early-learning experience. With air-conditioned smart classrooms,
             experienced teachers and a vibrant campus, we lay the foundation for confident, curious and kind
             young learners.
@@ -92,7 +92,7 @@ export function PrincipalSection() {
             />
           </div>
           <div className="absolute -bottom-5 -right-5 bg-[var(--brand-indigo)] text-white px-5 py-3 rounded-xl shadow-lg">
-            <div className="font-display font-bold text-sm">CGKG Royapuram</div>
+            <div className="font-display font-bold text-sm">CGKG Powai</div>
             <div className="text-[11px] opacity-90">Since Inception</div>
           </div>
         </div>

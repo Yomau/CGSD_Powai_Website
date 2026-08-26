@@ -56,7 +56,7 @@ export default function Header() {
               KINDERGARTEN
             </div>
             <div className="font-display font-semibold text-[11px] tracking-[0.25em] text-[var(--brand-navy)] mt-0.5">
-              ROYAPURAM
+              POWAI
             </div>
           </div>
         </Link>

@@ -36,7 +36,7 @@ export const Preloader = () => {
           COAST GUARD KINDERGARTEN
         </div>
         <div className="font-display font-semibold text-[11px] tracking-[0.3em] text-[var(--brand-indigo)] mt-1">
-          ROYAPURAM
+          POWAI
         </div>
       </div>
     </div>

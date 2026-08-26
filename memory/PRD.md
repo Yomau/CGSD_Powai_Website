@@ -28,6 +28,14 @@ structure and responsive behavior. Use the provided uploaded images.
 
 ## Implemented (2026-06)
 - Full multi-page frontend clone (mock-data driven), matching original theme.
+- **Rebranded location Royapuram → Powai (2026-06):** site-wide swap of locality, address,
+  city/state (Chennai/Tamil Nadu → Mumbai/Maharashtra), landmarks (now "near IDBI Bank, MHADA Colony").
+  Full address: 16 B, Jogeshwari - Vikhroli Link Rd, near IDBI Bank, MHADA Colony 20, Powai, Mumbai,
+  Maharashtra 400076. Updated: Header/Footer/Preloader labels, copyright, Home/About/Admission copy,
+  news testimonials, Contact map embed + new "Get Directions" link (share.google), SEO title/meta/OG,
+  and added schema.org Preschool JSON-LD in public/index.html. mock.js CONTACT gained `mapEmbed` + `directions`.
+  - FLAGGED (still old / need client input): phone `+91 78456 81810` & whatsapp `7845681810` (old Chennai
+    number — Google profile has none published), and email `info@cgkgroyapuram.com`.
 - **Logo animations (2026-06):**
   - New transparent-background crest logo used everywhere (`LOGO` in mock.js).
   - `Preloader`: full-screen splash on first load; logo does a smooth ease-out Y-axis
